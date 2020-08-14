@@ -1,0 +1,8 @@
+Definir a,b,x como real;
+	Escribir "Ingresar primer operando: ";
+	Leer a;
+	Escribir "Ingresar segundo operando: ";
+	Leer b;
+	x <-a+b; 
+	Escribir "Resultado =";
+	Escribir x;
