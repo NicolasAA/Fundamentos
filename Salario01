@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int s,d,j;
+   cout<<"Ingrese cantidad de días: "<<endl;
+   cin>>d;
+   cout<<"Ingrese monto del jornal: "<<endl;
+   cin>>j;
+   s=d*j;
+   cout<<"El salario es: "<<s;
+
+    return 0;
+}
