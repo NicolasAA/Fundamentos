@@ -1,0 +1,21 @@
+Algoritmo Horario
+	Definir h,m,s,x Como Real
+	Escribir 'Introducir la hora en formato de 24 horas: '
+	Leer h
+	Escribir 'Introduce los minutos: '
+	Leer m
+	Escribir 'Introduce los segundos: '
+	Leer s
+	x <- h-12
+	Si h>12 Entonces
+		Escribir 'Esta es la hora: '
+		Escribir x
+	SiNo
+		Escribir 'Esta es la hora: '
+		Escribir h
+	FinSi
+	Escribir 'Estos son los minutos: '
+	Escribir m
+	Escribir 'Estos son los segundos: '
+	Escribir s
+FinAlgoritmo
