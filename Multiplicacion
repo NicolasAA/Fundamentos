@@ -1,0 +1,20 @@
+#include "stdafx.h"
+#include <iostream>
+#include "math.h"
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+	int multi=0,n=0,x=26;
+	cout<<"Calcular la tabla de multiplicacion del numero a indicar: "<<endl;
+	cin>>n;
+	for(int i=0; i<x; i++)
+	{
+		multi=n*i;
+		cout<<n<<"*"<<i<<"="<<multi<<endl;
+	}
+	getch();
+	return 0;
+}
